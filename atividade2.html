@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    meta http-equiv=""X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE BRINQUEDOS</title>
+  </head>
+  <body>
+    <h1>BRINQUEDOS</h1>
+    <h2>Bola</h2>
+    <h2>Boneca</h2>
+    <h2>Bambolê</h2>
+    <h2>Peteca</h2>
+    <h2>Bolinha de gude</h2>
+    <h2>Quebra-cabeça</h2>
+    <h2>Patinete</h2>
+    <h2>Casinha de bonecas</h2>
+    <script>
+      cont subtitulos = document.querySelectorAll('h2');
+      cont topicos = new Array();
+      subtitulos.forEach(subtitulo => {
+        topicos.push(subtitulo.textContent);
+      });
+      lista = document.querySelector('ol');
+      topicos.forEach(topico => {
+        cont item = document.createElement('li');
+      });  
+    </script>  
+  </body>  
+</html>
+      
+    
