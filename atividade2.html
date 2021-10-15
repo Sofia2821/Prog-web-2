@@ -8,6 +8,7 @@
   </head>
   <body>
     <h1>BRINQUEDOS</h1>
+    <ol></ol>
     <h2>Bola</h2>
     <h2>Boneca</h2>
     <h2>Bambolê</h2>
@@ -25,6 +26,8 @@
       lista = document.querySelector('ol');
       topicos.forEach(topico => {
         cont item = document.createElement('li');
+        item.text.Content = topico;
+        lista.append(item);
       });  
     </script>  
   </body>  
